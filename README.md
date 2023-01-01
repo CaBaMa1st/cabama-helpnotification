@@ -9,6 +9,7 @@
 ### Requirements | Requerimientos
 
 - Añadir 3 lineas de codigo al es_extended/client/functions.lua reemplazando su correspondiente ESX.ShowHelpNotification
+
     ESX.ShowHelpNotification = function(text)
         return exports["cabama-help"]:showHelp(text)
     end
